@@ -1,0 +1,6 @@
+[przedział czasu] || [nr procesu]
+[0-1] || 1
+[1-2] || 1
+[2-3] || 2
+Czas oczekiwania poszczególnych procesów: [0, 2]
+Średni czas oczekiwania: 1.0
