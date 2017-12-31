@@ -990,7 +990,7 @@ def PRIORITY_preemptive_closed(list_of_processes):
                 ready_to_be_executed.append(task)
                 
         # Postarzenie procesu długo oczekującego
-        if loop % 3 is 0:
+        if loop % 5 is 0:
             for task in ready_to_be_executed:
                 if not finished[task.number - 1]:
                     if not task.priority is 1:
